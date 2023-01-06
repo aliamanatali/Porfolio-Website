@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 * {
     margin: 0;
@@ -44,8 +45,8 @@
 .infoContainer {
     /* background-color: red; */
     /* height: 43vh; */
-    width: 98hw;
-    margin-top: 14vh;
+    /* width: 98hw; */
+    margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -59,7 +60,7 @@
 }
 
 .name {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: bold;
     color: #141c3a;
     font-family: 'Syne', sans-serif;
@@ -67,20 +68,22 @@
 }
 
 .about {
-    font-size: 19px;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
+    font-size: 22px;
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
     padding-top: 35px;
 }
+.a1:hover{
+    color:  #6E07F3;
+    cursor: pointer;
+}
 .Img{
-    margin-top: 4vh;
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
 }
 .Img img{
-    height: 46vh;
-   
+    height: 43vh;
 }
 
 /* .buttons{
@@ -124,7 +127,7 @@
 .Tabs {
     padding-top: 20px;
     padding-right: 50px;
-    font-family: 'Average Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 nav ul{
     float:right;
@@ -139,7 +142,7 @@ nav li a:hover{
 .Tabs li {
     
     padding-left: 30px;
-    font-family: 'Average Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 18px;
     display: inline-block;
     justify-content: center; 
@@ -152,7 +155,7 @@ nav li a:hover{
     padding-right: 25px;
     background-color: transparent;
     color: #6E07F3;
-    font-family: 'Average Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     cursor: pointer;
     border-width: 2px;
     border-color: #6E07F3;
@@ -170,20 +173,85 @@ nav li a:hover{
     margin-top: 10vh;
 }
 .webImg img{
-    height: 56vh;
+    height: 55vh;
 }
 .coloredBg{
     width: 98vw;
     height: 76vh;
     background-color: #6E07F3;
+    padding-top: 25vh;
 
+    display: flex;
+    justify-content: center;
 }
+
 .Intro {
     text-align: center;
     color: white;
-    padding-top: 25vh ;
-    font-size: 28px;
+    padding-top: 25vh;
+    width: 55vw;
+    height: 50vh;
+    background-color: red;
 }
 .heading{
     font-family:  'Ubuntu', sans-serif;
+    font-size: 28px;
 }
+
+.centreAbout{
+    /* background-color: black; */
+    height: 50vh;
+    width: 52vw;
+    text-align: center;
+}
+.heading{
+color: white;
+}
+.introduction{
+    padding-top: 6%;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
+}
+.contactList ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.contactList li{
+    list-style: none;
+}
+.fa {
+    font-size: 20px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    padding-top: 12px;
+    color: #141c3a;
+    /* border: #6E07F3;
+    border-style: solid;
+    border-width: 0.2ch; */
+}
+.fa:hover{
+    color: #6E07F3;
+}
+  /* .fa-facebook {
+    border: #6E07F3;
+    border-style: solid;
+    border-width: 0.2ch;
+  }
+  .fa-twitter{
+    border: #6E07F3;
+    border-style: solid;
+    border-width: 0.2ch;
+  }
+  .fa-github{
+    border: #6E07F3;
+    border-style: solid;
+    border-width: 0.2ch;
+  }
+  .fa-linkedin{
+    
+  } */
