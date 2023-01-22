@@ -177,7 +177,7 @@ nav li a:hover{
     margin-top: 10vh;
 }
 .webImg img{
-    height: 55vh;
+    height: 33rem;
 }
 .coloredBg{
     width: 100;
@@ -281,7 +281,7 @@ font-size: 35px;
     transform: scale(1.05);
   }
   
-@media (max-width: 900px) {
+@media (max-width:1300px) {
     html{
         font-size: 65%;
     }
@@ -296,7 +296,7 @@ font-size: 35px;
     padding-right: 3.125rem;
     }
     .webImg img{
-        height:18rem;
+        height:20rem;
 }
 @media (max-width: 530px) {
     html{
