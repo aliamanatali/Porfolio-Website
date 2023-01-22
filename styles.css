@@ -60,7 +60,7 @@
 }
 
 .name {
-    font-size: 55px;
+    font-size: 3.8rem;
     font-weight: bold;
     color: #141c3a;
     font-family: 'Syne', sans-serif;
@@ -68,10 +68,10 @@
 }
 
 .about {
-    font-size: 22px;
+    font-size: 1.4rem;
     font-family: 'DM Sans', sans-serif;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 2.188rem;
 }
 .a1:hover{
     color:  #6E07F3;
@@ -90,16 +90,20 @@
 
 } */
 .buttons button {
-    padding: 9px 15px;
-    border-radius: 9px;
+    padding: 0.563rem 0.938rem;
+    border-radius: 0.563rem;
     color: black;
     background-color: rgb(201, 201, 201);
     font-weight: bold;
-    font-size: 11px;
-    margin: 9px 6px;
+    font-size: 0.688rem;
+    margin: 0.563rem 0.375rem;
     cursor: pointer;
-    border-width: 0px;
+    border-width: 0rem;
     transition: background-color 1s, color 1s;
+    -webkit-border-radius: 0.563rem;
+    -moz-border-radius: 0.563rem;
+    -ms-border-radius: 0.563rem;
+    -o-border-radius: 0.563rem;
 }
 
 .buttons button:hover {
@@ -119,14 +123,14 @@
 }
 
 .logo img {
-    height: 65px;
-    padding-left: 126px;
-    padding-top: 17px;
+    height: 4rem;
+    padding-left: 7.875rem;
+    padding-top: 1.063rem;
 }
 
 .Tabs {
-    padding-top: 20px;
-    padding-right: 50px;
+    padding-top: 1.25rem;
+    padding-right: 3.125rem;
     font-family: 'DM Sans', sans-serif;
 }
 nav ul{
@@ -141,25 +145,25 @@ nav li a:hover{
 }
 .Tabs li {
     
-    padding-left: 30px;
+    padding-left: 1.875rem;
     font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: inline-block;
     justify-content: center; 
 }
 
 .Tabs li button {
-    padding: 10px;
-    font-size: 18px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0.625rem;
+    font-size: 1.125rem;
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
     background-color: transparent;
     color: #6E07F3;
     font-family: 'DM Sans', sans-serif;
     cursor: pointer;
-    border-width: 2px;
+    border-width: 0.125rem;
     border-color: #6E07F3;
-    border-radius: 30px;
+    border-radius: 1.875rem;
 }
 
 .Tabs button:hover {
@@ -176,23 +180,22 @@ nav li a:hover{
     height: 55vh;
 }
 .coloredBg{
-    width: 98vw;
-    height: 76vh;
+    width: 100;
+    height: 74vh;
     background-color: #6E07F3;
-    padding-top: 25vh;
-
+    padding-top: 26vh;
     display: flex;
     justify-content: center;
 }
 
-.Intro {
+/* .Intro {
     text-align: center;
     color: white;
     padding-top: 25vh;
     width: 55vw;
     height: 50vh;
     background-color: red;
-}
+} */
 .heading{
     font-family:  'Ubuntu', sans-serif;
     font-size: 28px;
@@ -201,15 +204,16 @@ nav li a:hover{
 .centreAbout{
     /* background-color: black; */
     height: 50vh;
-    width: 52vw;
+    width: 56vw;
     text-align: center;
 }
 .heading{
 color: white;
+font-size: 35px;
 }
 .introduction{
-    padding-top: 6%;
-    font-size: 20px;
+    padding-top: 8%;
+    font-size: 21px;
     color: white;
     text-align: justify;
     font-family: 'DM Sans', sans-serif;
@@ -237,21 +241,88 @@ color: white;
 .fa:hover{
     color: #6E07F3;
 }
-  /* .fa-facebook {
-    border: #6E07F3;
-    border-style: solid;
-    border-width: 0.2ch;
+.ButtonHireMe{
+    padding-top: 50px;
+}
+.ButtonHireMe button{
+    background-color:#6E07F3;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 53px;
+    color: white;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    outline: 0;
+    padding: 9px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+}
+  
+  .ButtonHireMe button:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
   }
-  .fa-twitter{
-    border: #6E07F3;
-    border-style: solid;
-    border-width: 0.2ch;
+  
+  .ButtonHireMe button:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
   }
-  .fa-github{
-    border: #6E07F3;
-    border-style: solid;
-    border-width: 0.2ch;
-  }
-  .fa-linkedin{
-    
-  } */
+  
+@media (max-width: 900px) {
+    html{
+        font-size: 65%;
+    }
+    .logo img{
+        height: 4.2rem;
+        padding-left: 2rem;
+        padding-top: 3rem;
+        /* left-padding: 2rem 0 0 0; */
+    }
+    .Tabs{
+    padding-top: 4rem;
+    padding-right: 3.125rem;
+    }
+    .webImg img{
+        height:18rem;
+}
+@media (max-width: 500px) {
+    html{
+        font-size: 45%;
+    }
+    .Tabs{
+        padding-top: 4rem;
+    padding-right: 3.125rem;
+    }
+    .Img img {
+        height: 45rem;
+    }
+    .logo img{
+        height: 4rem;
+        padding-left:3rem;
+        padding-top: 3rem;
+        /* left-padding: 2rem 0 0 0; */
+    }
+    .webImg img{
+        height:20rem;
+    }
+    .about{
+        padding-top: 3.3rem;
+        font-size: 1.5rem;
+    }
+    .name{
+        font-size: 4.7rem;
+    }
+}
