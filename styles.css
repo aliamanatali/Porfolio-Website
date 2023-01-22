@@ -127,10 +127,13 @@
     padding-left: 7.875rem;
     padding-top: 1.063rem;
 }
+li .logo{
+    float: left;
+}
 
 .Tabs {
     padding-top: 1.25rem;
-    padding-right: 3.125rem;
+    /* padding-right: 3.125rem; */
     font-family: 'DM Sans', sans-serif;
 }
 nav ul{
@@ -297,6 +300,7 @@ font-size: 35px;
     }
     .webImg img{
         height:20rem;
+}
 }
 @media (max-width: 530px) {
     html{
