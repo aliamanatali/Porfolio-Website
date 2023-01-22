@@ -46,7 +46,7 @@
     /* background-color: red; */
     /* height: 43vh; */
     /* width: 98hw; */
-    margin-top: 10vh;
+    margin-top: 3.5rem;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -78,12 +78,12 @@
     cursor: pointer;
 }
 .Img{
-    margin-top: 2vh;
+    margin-top: 0.8rem;
     display: flex;
     justify-content: center;
 }
 .Img img{
-    height: 43vh;
+    height: 17rem;
 }
 
 /* .buttons{
@@ -113,7 +113,7 @@
 }
 
 .devPic img {
-    height: 80vh;
+    /* height: 8rem; */
 }
 
 .logo {
@@ -125,15 +125,15 @@
 .logo img {
     height: 4rem;
     padding-left: 7.875rem;
-    padding-top: 1.063rem;
+    padding-top: 1.5rem;
 }
 li .logo{
     float: left;
 }
 
 .Tabs {
-    padding-top: 1.25rem;
-    /* padding-right: 3.125rem; */
+    padding-top: 2.25rem;
+    padding-right: 3.125rem;
     font-family: 'DM Sans', sans-serif;
 }
 nav ul{
@@ -177,14 +177,14 @@ nav li a:hover{
 .webImg{
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 10rem;
 }
 .webImg img{
     height: 33rem;
 }
 .coloredBg{
     width: 100;
-    height: 74vh;
+    height: 31rem;
     background-color: #6E07F3;
     padding-top: 26vh;
     display: flex;
