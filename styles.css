@@ -301,17 +301,23 @@ font-size: 35px;
     .webImg img{
         height:20rem;
 }
+.Img img {
+    height: 42rem;
+}
+}
+.name{
+    padding-top: 50px;
 }
 @media (max-width: 530px) {
     html{
         font-size: 40%;
     }
     .Tabs{
-        padding-top: 4rem;
+    padding-top: 4rem;
     padding-right: 3.125rem;
     }
     .Img img {
-        height: 45rem;
+        height: 42rem;
     }
     .logo img{
         height: 4rem;
@@ -328,6 +334,7 @@ font-size: 35px;
     }
     .name{
         font-size: 4.7rem;
+        padding-top: 50px;
     }
 }
 @media(max-width: 322px)
@@ -352,5 +359,8 @@ font-size: 35px;
         padding-left:3rem; */
         padding-top: 4.5rem;
         /* left-padding: 2rem 0 0 0; */
+    }
+    .Img img {
+        height: 42rem;
     }
 }
