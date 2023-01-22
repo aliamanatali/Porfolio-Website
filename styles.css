@@ -360,4 +360,61 @@ font-size: 35px;
     .Img img {
         height: 42rem;
     }
+    .fa {
+        font-size: 15px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin: 15px;
+        padding-top: 12px;
+        color: #141c3a;
+        /* border: #6E07F3;
+        border-style: solid;
+        border-width: 0.2ch; */
+    }
+}
+@media(max-width: 210px)
+{
+    html{
+        font-size: 18%;
+    }
+    .about{
+        padding-top: 5rem;
+        font-size: 1.5rem;
+    }
+    .name{
+        font-size: 4.7rem;
+        padding-top: 45px;
+    }
+    .Tabs{
+        padding-top: 5rem;
+    padding-right: 3.125rem;
+    }
+    .logo img{
+        /* height: 4rem;
+        padding-left:3rem; */
+        padding-top: 4.5rem;
+        /* left-padding: 2rem 0 0 0; */
+    }
+    .Img img {
+        height: 42rem;
+    }
+    ul li a{
+        display:none;
+    }
+    ul li a{
+        height: 10rem;
+    }
+    .fa {
+        font-size: 10px;
+        width: 7px;
+        text-align: center;
+        text-decoration: none;
+        margin: 15px;
+        padding-top: 12px;
+        color: #141c3a;
+        /* border: #6E07F3;
+        border-style: solid;
+        border-width: 0.2ch; */
+    }
 }
