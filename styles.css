@@ -302,13 +302,10 @@ font-size: 35px;
         height:20rem;
 }
 .Img img {
-    height: 42rem;
+    height: 25rem;
 }
 }
-.name{
-    padding-top: 50px;
-}
-@media (max-width: 530px) {
+@media (max-width: 535px) {
     html{
         font-size: 40%;
     }
